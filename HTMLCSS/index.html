@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller HTML</title>
+    <link rel="stylesheet" href="./style.css">   
+    
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <h2 class="titulo">Titulo 2</h2>
+    <h3 id="identificador">Titulo 3</h3>
+    <pre>
+        Hola mundo
+        linea 1
+        line 2
+    </pre>
+    <p class="titulo">Buenos <br> días</p>
+    <p>Texto de  <span style="color:red;">ejemplo</span>, con <strong>negrita</strong></p>
+    <!-- Comentario -->
+    <hr>
+    <a href="http://www.google.com" target="_blank">Google</a>
+    <img src="./img/paris.jpg" alt="Paris" >
+    <!--Lista ordenana-->
+    <ol id="dias">
+        <!--Elemento a listar-->
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miércoles</li>
+        <li>
+            <ol style="list-style-type: lower-roman;">
+                <li>Jueves</li>
+                <li>Viernes</li>
+            </ol>
+        </li>
+    </ol>
+    <!--Lista no ordenada-->  
+    <ul>
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miércoles</li>
+    </ul>
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Daniel asfsfdfadf</td>
+                <td>Acabal</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Prueba</td>
+                <td>Prueba 2</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Formulario</h1>
+    <form action="">
+        <label for="name">Nombre</label>
+        <input type="text" required><br>
+        <label for="username">Usuario</label>
+        <input type="text" required><br>
+        <label for="correo" >Correo</label>
+        <input type="email" required><br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" required><br>
+        <button type="button">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+    <script src="./app.js"></script>
+</body>
+</html>

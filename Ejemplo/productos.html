@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="producto.css">
+</head>
+<body>
+    <h1>Productos</h1>
+    <div>
+        <form >
+            <label for="producto">Producto</label>
+            <input name="producto" type="text">
+            <label for="desc">Descripción</label>
+            <input name="desc" type="text">
+            <label for="cantidad">Cantidad</label>
+            <input name="cantidad" type="number">
+            <label for="precio">Precio</label>
+            <input name="precio" type="number">
+            <button id="crear">Crear</button>
+            <button>Eliminar</button>
+        </form>
+    </div>
+    <table>
+        <thead>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+        </thead>
+        <tbody id="productos">
+            
+        </tbody>
+    </table>
+    <script src="producto.js"></script>
+</body>
+</html>
